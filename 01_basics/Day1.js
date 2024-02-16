@@ -62,3 +62,27 @@ console.log(BooleanIsLoggedIn); // true
 let num = 33;
 let numToStr = String(num)
 console.log(typeof numToStr); // String
+
+// Lecture 5 : Operations
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+
+console.log(2 + 2); // Addition
+console.log(2 - 2); // Substraction
+console.log(2 * 2); // multiplication
+console.log(2 / 2); // division
+console.log(2 ** 2);// power
+
+console.log("1" + 2)
+console.log(1 + '2')
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+let gameScore = 100
+++gameScore // prefix increment 
+gameScore++ // postfix increment
+
+console.log(gameScore)
